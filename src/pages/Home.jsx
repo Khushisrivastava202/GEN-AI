@@ -1,11 +1,9 @@
-import CallToAction from './CallToAction';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logoai.png'
 import image from '../assets/image.png'
 import text from '../assets/Text-sum.png'
 import chatpdf from '../assets/chatpdf.png'
 
-import  Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -63,9 +61,7 @@ export default function Home() {
 
 
       <div className='sm:p-12 p-6 mt-8 mb-8 '>
-        <CallToAction />
       </div>
-      <Footer/>
     </div>
   );
 }
